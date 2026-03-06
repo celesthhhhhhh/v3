@@ -1,0 +1,339 @@
+{
+    "neutral": {
+        "eyes widened": [
+            "she blinked",
+            "she stared",
+            "she looked up sharply",
+            "she went still",
+            "she paused"
+        ],
+        "her eyes widened": [
+            "she blinked",
+            "she stared",
+            "she looked up sharply",
+            "she went still",
+            "she froze"
+        ],
+        "his eyes widened": [
+            "he blinked",
+            "he stared",
+            "he looked up sharply",
+            "he went still",
+            "he froze"
+        ],
+        "their eyes widened": [
+            "they blinked",
+            "they stared",
+            "they went still",
+            "they froze"
+        ],
+        "breath hitched": [
+            "she inhaled sharply",
+            "she caught her breath",
+            "she stiffened"
+        ],
+        "her breath hitched": [
+            "she inhaled sharply",
+            "she caught her breath",
+            "she stiffened",
+            "she went quiet"
+        ],
+        "his breath hitched": [
+            "he inhaled sharply",
+            "he caught his breath",
+            "he stiffened",
+            "he went quiet"
+        ],
+        "heart skipped a beat": [
+            "something shifted in her chest",
+            "she felt a sudden jolt",
+            "her stomach dropped"
+        ],
+        "heart hammered": [
+            "her pulse spiked",
+            "her heart knocked against her ribs"
+        ],
+        "heart pounded": [
+            "her pulse beat hard",
+            "her heart knocked"
+        ],
+        "heart raced": [
+            "her pulse kicked up",
+            "her heart beat fast"
+        ],
+        "pulse quickened": [
+            "her pulse spiked",
+            "her heartbeat picked up"
+        ],
+        "knuckles whitened": [
+            "her grip tightened",
+            "she gripped harder",
+            "her hand clenched"
+        ],
+        "knuckles went white": [
+            "her grip tightened",
+            "she gripped harder"
+        ],
+        "knuckles turned white": [
+            "her grip tightened",
+            "she held on harder"
+        ],
+        "cheeks flushed": [
+            "her face grew warm",
+            "a flush crept up her neck"
+        ],
+        "face flushed": [
+            "her face grew warm",
+            "color rose in her face"
+        ],
+        "jaw clenched": [
+            "her teeth pressed together",
+            "she bit back a response"
+        ],
+        "jaw tightened": [
+            "her teeth pressed together",
+            "she bit down"
+        ],
+        "throat tightened": [
+            "she swallowed",
+            "something caught in her throat"
+        ],
+        "chest tightened": [
+            "she drew a slow breath",
+            "something heavy settled in her chest"
+        ],
+        "mind went blank": [
+            "she drew a blank",
+            "her thoughts stalled",
+            "she had nothing"
+        ],
+        "blood ran cold": [
+            "a chill moved through her",
+            "she went cold"
+        ],
+        "blood turned to ice": [
+            "a chill moved through her",
+            "she went cold all over"
+        ],
+        "blood boiled": [
+            "anger spiked through her",
+            "her temper flared"
+        ]
+    },
+    "romantic": {
+        "melted into his embrace": [
+            "leaned into him",
+            "pressed herself close",
+            "held on to him"
+        ],
+        "melted into her embrace": [
+            "leaned into her",
+            "pressed himself close",
+            "held on to her"
+        ],
+        "melted into his arms": [
+            "leaned into him",
+            "let him hold her",
+            "pressed herself against him"
+        ],
+        "melted into her arms": [
+            "leaned into her",
+            "let her hold him",
+            "pressed himself against her"
+        ],
+        "their lips crashed together": [
+            "they kissed",
+            "she kissed him",
+            "he kissed her"
+        ],
+        "lips crashed together": [
+            "they kissed",
+            "she kissed him hard"
+        ],
+        "electricity crackled between them": [
+            "the air between them changed",
+            "something shifted between them"
+        ],
+        "tension crackled between them": [
+            "the silence between them was weighted",
+            "something unspoken passed between them"
+        ],
+        "lost in his eyes": [
+            "looking at him",
+            "studying his face"
+        ],
+        "lost in her eyes": [
+            "looking at her",
+            "studying her face"
+        ],
+        "made her heart flutter": [
+            "made her chest feel strange",
+            "did something odd to her heartbeat"
+        ],
+        "her heart swelled": [
+            "something warm moved through her",
+            "she felt something open up in her chest"
+        ],
+        "their gazes locked": [
+            "they looked at each other",
+            "she met his eyes"
+        ],
+        "eyes met across the room": [
+            "she noticed him from across the room",
+            "their eyes found each other"
+        ]
+    },
+    "filler": {
+        "a shiver ran down her spine": [
+            "she shivered",
+            "she tensed",
+            ""
+        ],
+        "a shiver ran down his spine": [
+            "he shivered",
+            "he tensed",
+            ""
+        ],
+        "a shiver ran down their spine": [
+            "they shivered",
+            "they tensed",
+            ""
+        ],
+        "heat pooled in her stomach": [
+            "warmth moved through her",
+            ""
+        ],
+        "heat pooled in his stomach": [
+            "warmth moved through him",
+            ""
+        ],
+        "heat crept up her cheeks": [
+            "her face grew warm",
+            "she felt her face flush"
+        ],
+        "heat crept up his cheeks": [
+            "his face grew warm",
+            "he felt his face flush"
+        ],
+        "tears pricked her eyes": [
+            "her eyes stung",
+            "she blinked hard"
+        ],
+        "tears pricked his eyes": [
+            "his eyes stung",
+            "he blinked hard"
+        ],
+        "tears stung her eyes": [
+            "her eyes stung",
+            "she blinked hard"
+        ],
+        "tears stung his eyes": [
+            "his eyes stung",
+            "he blinked hard"
+        ],
+        "a lump formed in her throat": [
+            "she swallowed",
+            "her throat ached"
+        ],
+        "a lump formed in his throat": [
+            "he swallowed",
+            "his throat ached"
+        ],
+        "let out a breath she didn't know she'd been holding": [
+            "exhaled",
+            "breathed out slowly"
+        ],
+        "let out a breath he didn't know he'd been holding": [
+            "exhaled",
+            "breathed out slowly"
+        ],
+        "a small smile tugged at her lips": [
+            "she smiled",
+            "the corner of her mouth moved"
+        ],
+        "a small smile tugged at his lips": [
+            "he smiled",
+            "the corner of his mouth moved"
+        ],
+        "couldn't help but smile": [
+            "smiled",
+            "felt herself smile"
+        ],
+        "wave of emotion": [
+            "a feeling she couldn't pin down",
+            ""
+        ],
+        "flood of emotions": [
+            "a tangle of feelings",
+            ""
+        ],
+        "kaleidoscope of emotions": [
+            "a tangle of feelings",
+            ""
+        ],
+        "tapestry of emotions": [
+            "a tangle of feelings",
+            ""
+        ],
+        "maelstrom of emotions": [
+            "a tangle of feelings",
+            ""
+        ],
+        "time seemed to stop": [
+            "everything paused",
+            "the moment stretched out"
+        ],
+        "time stood still": [
+            "the moment stretched out",
+            ""
+        ],
+        "the world fell away": [
+            "everything else became background noise",
+            ""
+        ],
+        "everything else faded away": [
+            "nothing else registered",
+            ""
+        ],
+        "in that moment": [
+            "then",
+            ""
+        ],
+        "in that instant": [
+            "then",
+            ""
+        ],
+        "ghost of a smile played on her lips": [
+            "the corner of her mouth lifted slightly",
+            "she almost smiled"
+        ],
+        "ghost of a smile played on his lips": [
+            "the corner of his mouth lifted slightly",
+            "he almost smiled"
+        ],
+        "something unreadable in his eyes": [
+            "an expression she couldn't read",
+            "something closed off in his face"
+        ],
+        "something unreadable in her eyes": [
+            "an expression he couldn't read",
+            "something closed off in her face"
+        ],
+        "adrenaline surged through her veins": [
+            "adrenaline hit her",
+            "her pulse jumped"
+        ],
+        "adrenaline surged through his veins": [
+            "adrenaline hit him",
+            "his pulse jumped"
+        ],
+        "deafening silence": [
+            "the silence",
+            "a long pause"
+        ],
+        "pregnant pause": [
+            "a pause",
+            "a silence"
+        ]
+    }
+}

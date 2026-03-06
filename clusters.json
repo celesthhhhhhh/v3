@@ -1,0 +1,300 @@
+{
+    "clusters": [
+        {
+            "id": "surprise_eyes",
+            "name": "Surprise — Eyes",
+            "type": "neutral",
+            "phrases": [
+                "eyes widened",
+                "eyes went wide",
+                "eyes grew wide",
+                "eyes flew open",
+                "eyes snapped open",
+                "eyes popped wide"
+            ],
+            "action": "replace"
+        },
+        {
+            "id": "breath_reaction",
+            "name": "Breath Reaction",
+            "type": "neutral",
+            "phrases": [
+                "breath hitched",
+                "breath caught in her throat",
+                "breath caught in his throat",
+                "sharp intake of breath",
+                "breath came in ragged gasps",
+                "breathing became ragged"
+            ],
+            "action": "replace"
+        },
+        {
+            "id": "heartbeat_emotion",
+            "name": "Heartbeat Emotion",
+            "type": "neutral",
+            "phrases": [
+                "heart skipped a beat",
+                "heart stuttered",
+                "heart hammered",
+                "heart pounded",
+                "heart raced",
+                "heart leaped",
+                "heart fluttered",
+                "pulse quickened",
+                "pulse raced"
+            ],
+            "action": "replace"
+        },
+        {
+            "id": "spine_shiver",
+            "name": "Spine Shiver",
+            "type": "filler",
+            "phrases": [
+                "a shiver ran down her spine",
+                "a shiver ran down his spine",
+                "sent a shiver down her spine",
+                "shiver ran down spine",
+                "chill ran down her spine",
+                "chill ran down his spine"
+            ],
+            "action": "remove"
+        },
+        {
+            "id": "romantic_embrace",
+            "name": "Romantic Embrace / Melt",
+            "type": "romantic",
+            "phrases": [
+                "melted into his embrace",
+                "melted into her embrace",
+                "melted into his arms",
+                "melted into her arms",
+                "sank into his arms",
+                "sank into her arms",
+                "collapsed into his arms"
+            ],
+            "action": "rewrite"
+        },
+        {
+            "id": "lips_crash",
+            "name": "Lips Crash Kiss",
+            "type": "romantic",
+            "phrases": [
+                "their lips crashed together",
+                "lips crashed together",
+                "lips met in a passionate kiss",
+                "crushed his lips to hers",
+                "crushed her lips to his",
+                "lips collided",
+                "lips found each other"
+            ],
+            "action": "rewrite"
+        },
+        {
+            "id": "heat_pool",
+            "name": "Heat Pool",
+            "type": "filler",
+            "phrases": [
+                "heat pooled in her stomach",
+                "heat pooled in his stomach",
+                "heat pooled low in her belly",
+                "heat pooled low in his belly",
+                "warmth pooled in her stomach",
+                "warmth pooled low in her belly"
+            ],
+            "action": "remove"
+        },
+        {
+            "id": "cheek_heat",
+            "name": "Cheek Heat / Flush",
+            "type": "neutral",
+            "phrases": [
+                "cheeks flushed",
+                "cheeks turned red",
+                "cheeks heated",
+                "face flushed",
+                "heat crept up her cheeks",
+                "heat crept up his cheeks",
+                "heat rose to her cheeks",
+                "heat rose to his cheeks"
+            ],
+            "action": "replace"
+        },
+        {
+            "id": "tears_prick",
+            "name": "Tears Prick / Sting",
+            "type": "filler",
+            "phrases": [
+                "tears pricked her eyes",
+                "tears pricked his eyes",
+                "tears stung her eyes",
+                "tears stung his eyes",
+                "tears welled up",
+                "tears welled in her eyes"
+            ],
+            "action": "replace"
+        },
+        {
+            "id": "throat_lump",
+            "name": "Lump in Throat",
+            "type": "filler",
+            "phrases": [
+                "a lump formed in her throat",
+                "a lump formed in his throat",
+                "lump in her throat",
+                "lump in his throat",
+                "lump rose in her throat",
+                "knot in her throat"
+            ],
+            "action": "replace"
+        },
+        {
+            "id": "electricity_between",
+            "name": "Electricity / Tension Between",
+            "type": "romantic",
+            "phrases": [
+                "electricity crackled between them",
+                "tension crackled between them",
+                "electricity danced between them",
+                "electric tension",
+                "charged silence",
+                "charged atmosphere",
+                "the air between them was thick",
+                "sparks flew"
+            ],
+            "action": "rewrite"
+        },
+        {
+            "id": "breath_holding",
+            "name": "Breath Holding Release",
+            "type": "filler",
+            "phrases": [
+                "let out a breath she didn't know she'd been holding",
+                "let out a breath he didn't know he'd been holding",
+                "breath she hadn't realized she'd been holding",
+                "breath he hadn't realized he'd been holding",
+                "released a breath she hadn't known she was holding"
+            ],
+            "action": "replace"
+        },
+        {
+            "id": "smile_tug",
+            "name": "Smile Tug at Lips",
+            "type": "filler",
+            "phrases": [
+                "a small smile tugged at her lips",
+                "a small smile tugged at his lips",
+                "smile tugged at the corner of her lips",
+                "smile tugged at the corner of his lips",
+                "corners of her lips twitched",
+                "corners of his lips twitched",
+                "ghost of a smile played on her lips",
+                "ghost of a smile played on his lips",
+                "a ghost of a smile"
+            ],
+            "action": "replace"
+        },
+        {
+            "id": "emotion_flood",
+            "name": "Emotion Flood / Wave",
+            "type": "filler",
+            "phrases": [
+                "wave of emotion",
+                "flood of emotions",
+                "rush of emotions",
+                "swirl of emotions",
+                "kaleidoscope of emotions",
+                "tapestry of emotions",
+                "maelstrom of emotions",
+                "a thousand emotions",
+                "tangled mess of emotions"
+            ],
+            "action": "remove"
+        },
+        {
+            "id": "world_fading",
+            "name": "World Fading Away",
+            "type": "filler",
+            "phrases": [
+                "time seemed to stop",
+                "time stood still",
+                "the world fell away",
+                "the rest of the world faded",
+                "everything else faded away",
+                "the rest of the world ceased to exist"
+            ],
+            "action": "remove"
+        },
+        {
+            "id": "hair_rake",
+            "name": "Hair Rake / Run",
+            "type": "filler",
+            "phrases": [
+                "ran a hand through his hair",
+                "ran a hand through her hair",
+                "raked a hand through his hair",
+                "raked a hand through her hair",
+                "ran fingers through his hair",
+                "ran fingers through her hair"
+            ],
+            "action": "replace"
+        },
+        {
+            "id": "something_flicker",
+            "name": "Something Flickered / Shifted",
+            "type": "filler",
+            "phrases": [
+                "something shifted in his expression",
+                "something shifted in her expression",
+                "something flickered in his eyes",
+                "something flickered in her eyes",
+                "flash of emotion crossed her face",
+                "flash of emotion crossed his face",
+                "emotion crossed her face",
+                "emotion crossed his face"
+            ],
+            "action": "remove"
+        },
+        {
+            "id": "knuckles_white",
+            "name": "Knuckles Whitening",
+            "type": "neutral",
+            "phrases": [
+                "knuckles whitened",
+                "knuckles went white",
+                "knuckles turned white"
+            ],
+            "action": "replace"
+        },
+        {
+            "id": "veins_fire_ice",
+            "name": "Veins Fire / Ice / Adrenaline",
+            "type": "filler",
+            "phrases": [
+                "adrenaline surged through her veins",
+                "adrenaline surged through his veins",
+                "fire in her veins",
+                "fire in his veins",
+                "ice in her veins",
+                "ice in his veins",
+                "blood ran cold",
+                "blood turned to ice",
+                "blood boiled"
+            ],
+            "action": "replace"
+        },
+        {
+            "id": "warmth_bloom",
+            "name": "Warmth Blooming",
+            "type": "filler",
+            "phrases": [
+                "warmth bloomed in her chest",
+                "warmth bloomed in his chest",
+                "ache bloomed in her chest",
+                "something warm bloomed",
+                "warmth spread through her chest",
+                "warmth spread through his chest"
+            ],
+            "action": "remove"
+        }
+    ]
+}
