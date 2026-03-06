@@ -1,0 +1,130 @@
+<div class="anti-slop-settings">
+    <div class="anti-slop-header">
+        <h4>
+            <span class="anti-slop-icon">🚫</span>
+            Anti-Slop
+        </h4>
+        <label class="anti-slop-toggle-label" title="Enable or disable Anti-Slop processing">
+            <input type="checkbox" id="anti-slop-enabled" />
+            <span class="anti-slop-toggle-track">
+                <span class="anti-slop-toggle-thumb"></span>
+            </span>
+            <span class="anti-slop-toggle-text">Enabled</span>
+        </label>
+    </div>
+
+    <div class="anti-slop-body">
+
+        <!-- Stage toggles -->
+        <div class="anti-slop-section">
+            <div class="anti-slop-section-title">Pipeline Stages</div>
+            <div class="anti-slop-row">
+                <label>
+                    <input type="checkbox" id="anti-slop-stage-regex" />
+                    Stage 1 — Regex Filter
+                </label>
+                <span class="anti-slop-hint">Fast pattern matching (~30% of slop)</span>
+            </div>
+            <div class="anti-slop-row">
+                <label>
+                    <input type="checkbox" id="anti-slop-stage-similarity" />
+                    Stage 3 — Similarity Detection
+                </label>
+                <span class="anti-slop-hint">Semantic n-gram matching</span>
+            </div>
+            <div class="anti-slop-row">
+                <label>
+                    <input type="checkbox" id="anti-slop-stage-clusters" />
+                    Stage 3b — Cluster Search
+                </label>
+                <span class="anti-slop-hint">Detect paraphrased variants</span>
+            </div>
+        </div>
+
+        <!-- Slop type toggles -->
+        <div class="anti-slop-section">
+            <div class="anti-slop-section-title">Slop Types to Filter</div>
+            <div class="anti-slop-row">
+                <label>
+                    <input type="checkbox" id="anti-slop-type-neutral" />
+                    Neutral slop
+                </label>
+                <span class="anti-slop-hint">eyes widened, heart skipped…</span>
+            </div>
+            <div class="anti-slop-row">
+                <label>
+                    <input type="checkbox" id="anti-slop-type-romantic" />
+                    Romantic slop
+                </label>
+                <span class="anti-slop-hint">melted into his embrace, lips crashed…</span>
+            </div>
+            <div class="anti-slop-row">
+                <label>
+                    <input type="checkbox" id="anti-slop-type-filler" />
+                    Filler slop
+                </label>
+                <span class="anti-slop-hint">a shiver ran down her spine, heat pooled…</span>
+            </div>
+        </div>
+
+        <!-- Default action -->
+        <div class="anti-slop-section">
+            <div class="anti-slop-section-title">Default Action (when no specific rule applies)</div>
+            <div class="anti-slop-radio-group">
+                <label>
+                    <input type="radio" name="anti-slop-action" value="replace" />
+                    Replace with synonym
+                </label>
+                <label>
+                    <input type="radio" name="anti-slop-action" value="remove" />
+                    Remove phrase
+                </label>
+                <label>
+                    <input type="radio" name="anti-slop-action" value="rewrite" />
+                    Rewrite sentence
+                </label>
+            </div>
+        </div>
+
+        <!-- Similarity threshold -->
+        <div class="anti-slop-section" id="anti-slop-threshold-section">
+            <div class="anti-slop-section-title">Similarity Threshold</div>
+            <div class="anti-slop-slider-row">
+                <input type="range" id="anti-slop-threshold" min="60" max="98" step="1" />
+                <span id="anti-slop-threshold-display" class="anti-slop-threshold-val">82</span>
+            </div>
+            <span class="anti-slop-hint">Lower = more aggressive filtering. Recommended: 78–88.</span>
+        </div>
+
+        <!-- Debug mode -->
+        <div class="anti-slop-section">
+            <div class="anti-slop-row">
+                <label>
+                    <input type="checkbox" id="anti-slop-debug" />
+                    Debug mode (log changes to console)
+                </label>
+            </div>
+        </div>
+
+        <!-- Stats -->
+        <div class="anti-slop-section">
+            <div class="anti-slop-section-title">Session Stats</div>
+            <div class="anti-slop-stats">
+                <div class="anti-slop-stat">
+                    <span class="anti-slop-stat-num" id="anti-slop-stat-total">0</span>
+                    <span class="anti-slop-stat-label">replacements</span>
+                </div>
+                <div class="anti-slop-stat">
+                    <span class="anti-slop-stat-num" id="anti-slop-stat-messages">0</span>
+                    <span class="anti-slop-stat-label">messages cleaned</span>
+                </div>
+                <div class="anti-slop-stat">
+                    <span class="anti-slop-stat-num" id="anti-slop-stat-phrases">0</span>
+                    <span class="anti-slop-stat-label">phrases in DB</span>
+                </div>
+            </div>
+            <button id="anti-slop-reset-stats" class="anti-slop-btn-sm">Reset stats</button>
+        </div>
+
+    </div>
+</div>

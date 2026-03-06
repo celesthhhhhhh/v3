@@ -1,0 +1,12 @@
+{
+    "display_name": "Anti-Slop",
+    "author": "Anti-Slop Extension",
+    "version": "1.0.0",
+    "description": "Automatically detects and removes AI clichés (slop) from character responses. Uses a multi-stage pipeline: regex filter → sentence splitting → similarity detection → rewrite engine.",
+    "requires": [],
+    "optional": [],
+    "js": "index.js",
+    "css": "styles.css",
+    "homePage": "",
+    "loading_order": 110
+}
